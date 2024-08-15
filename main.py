@@ -68,11 +68,7 @@ if life == True:
       break
 
 for j in range(len(amount_stage)):
-  # for j in amount_stage:
   if amount_won < int(amount_stage[j]):
     net_amount = amount_stage[int(j) - 1]
     print("You won Rs." + str(net_amount) + '.00\n')
     break
-  # else:
-  # print("Sorry! Your winnig price is Rs.0.00")
-  # break
